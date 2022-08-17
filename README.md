@@ -1,70 +1,34 @@
-# Getting Started with Create React App
+# User Information App
+- This is an user info app constructed with Functional React component. 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## steps to follow in the installation
+1. Write `npm install` on your terminal and press enter (to allow the installation of a packages and it's dependencies to your local node-module folder )
+2. Write `npm start` on your terminal and press enter (to start the live server)
+    - This start your browser automatically in localhost http://localhost:3000
 
-## Available Scripts
+![Homepage](/img/FrontPage.png)
 
-In the project directory, you can run:
+---
+ ## Some technologies installed: 
+ - axios
+ - bootstrap
+ - react-bootstrap
+ - react-router-dom
 
-### `npm start`
+## User details
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- By clicking **"MORE DETAILS"** on each card info, it navigates to the individual user details, where users can view the detail about each user such as name, address, website, etc.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+![Details](/img/Details.png)
 
-### `npm test`
+- Information details on each user
+![UserDetails](/img/UserDetails.png)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+By clicking **"Back to user's list"**, it navigates to users list.
 
-### `npm run build`
+![BackToUserList](/img/BackToUserList.png)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+By clicking on each user **URL**, it navigates to the user's websites
+![URL](/img/URL.png)

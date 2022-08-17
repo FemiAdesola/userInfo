@@ -1,38 +1,76 @@
-.App {
+:root{
+  --color-1:#808080;
+  --color-2:#ffffff;
+  --color-3:#1e1212;
+  --color-4:#ff0000;
+}
+.userInitial{
+ width: 100px;
+ height: 100px;
+ border-radius: 50% !important;
+ justify-content: center;
+ align-items: center;
+ font-size: 30px;
+ display: flex;
+ margin-bottom: 10px;
+ margin-left: 70px;
+}
+
+.usersInfo{
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.userSinglePage{
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-wrap: wrap;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  padding-top: 50px;
+}
+.userSingleCard{
+  padding-top: 20px;
+  margin: 20px;
+  display: inline-block;
+  box-shadow: 0px 2px 2px 0px var(--color-1);
+  width: 400px;
+  border-radius: 5px;
 }
 
-.App-link {
-  color: #61dafb;
+.userSingle{
+  margin-left: 25px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.userSingle span{
+font-size: 30px;
+text-transform: capitalize;
+}
+.userSingleCard{
+background-color: var(--color-2);
+text-transform: capitalize;
+
+}
+.userSingleCard p{
+  font-size: 20px;
+  padding-left: 20px;
+}
+.userSingleCard span{
+  font-size: 20px;
+  padding-left: 10px;
+}
+.userSingleCard Button{
+  margin-left: 100px;
+  margin-bottom: 20px;
+  font-size: 20px;
+} 
+.userSingleCard Button:hover, .my-3:hover{
+  background-color: var(--color-1);
+  border: none;
+  box-shadow: 0px 2px 2px 0px var(--color-3);
+}
+
+li{
+  margin-left: 30px;
+}
+
+.link:hover{
+ color: var(--color-4);
 }
