@@ -2,6 +2,8 @@
 
 A simple and modern User Directory application built with React. The application fetches user information from the JSONPlaceholder API and displays users in responsive profile cards. Users can select a profile to view more detailed information.
 
+Few live here [User directory app](https://userinfo-gm06.onrender.com)
+
 ## Features
 
 👤 Display users in modern profile cards
