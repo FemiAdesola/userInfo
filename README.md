@@ -6,28 +6,27 @@ Few live here [User directory app](https://userinfo-gm06.onrender.com)
 
 ## Features
 
-👤 Display users in modern profile cards
-🔎 View detailed user information
-🌐 Clickable user websites
-📧 Display email addresses
-📍 Display user addresses
-🔄 Loading state while fetching data
-↩️ Navigate back to the user list
-📱 Responsive design
-🎨 Modern card-based UI with hover effects
-🔗 React Router navigation
-⚡ API data fetched using Axios
-
++ 👤 Display users in modern profile cards
++ 🔎 View detailed user information
++ 🌐 Clickable user websites
++ 📧 Display email addresses
++ 📍 Display user addresses
++ 🔄 Loading state while fetching data
++ ↩️ Navigate back to the user list
++ 📱 Responsive design
++ 🎨 Modern card-based UI with hover effects
++ 🔗 React Router navigation
++ ⚡ API data fetched using Axios
 
 ## Technologies Used
 
-React.js
-React Router
-React Bootstrap
-Bootstrap
-Axios
-CSS
-JSONPlaceholder API
++ React.js
++ React Router
++ React Bootstrap
++ Bootstrap
++ Axios
++ CSS
++ JSONPlaceholder API
 
 ## API
 
@@ -73,31 +72,27 @@ src/
 
 Each user is displayed with:
 
-User initials
-Full name
-Username
-Website
-View Profile button
-
-- By clicking **"MORE DETAILS"** on each card info, it navigates to the individual user details, where users can view the detail about each user such as name, address, website, etc.
-
++ User initials
++ Full name
++ Username
++ Website
++ View Profile button
+  + By clicking **"MORE DETAILS"** on each card info, it navigates to the individual user details, where users can view the detail about each user such as name, address, website, etc.
 
 ![Details](/img/Details_2.png)
-
-
 
 ### User Card
 
 When a user selects View Profile, the application displays:
 
-Name
-Username
-Email
-Website
-Street
-Suite
-City
-Zipcode
++ Name
++ Username
++ Email
++ Website
++ Street
++ Suite
++ City
++ Zipcode
 
 The profile page also includes a button to return to the user list.
 
