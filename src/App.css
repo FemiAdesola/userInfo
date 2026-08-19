@@ -4,7 +4,7 @@
   --color-3:#1e1212;
   --color-4:#ff0000;
 }
-.userInitial{
+/* .userInitial{
  width: 100px;
  height: 100px;
  border-radius: 50% !important;
@@ -14,13 +14,13 @@
  display: flex;
  margin-bottom: 10px;
  margin-left: 70px;
-}
+} */
 
-.usersInfo{
+/* .usersInfo{
   text-align: center;
-}
+} */
 
-.userSinglePage{
+/* .userSinglePage{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -33,13 +33,13 @@
   box-shadow: 0px 2px 2px 0px var(--color-1);
   width: 400px;
   border-radius: 5px;
-}
+} */
 
-.userSingle{
+/* .userSingle{
   margin-left: 25px;
-}
+} */
 
-.userSingle span{
+/* .userSingle span{
 font-size: 30px;
 text-transform: capitalize;
 }
@@ -65,12 +65,240 @@ text-transform: capitalize;
   background-color: var(--color-1);
   border: none;
   box-shadow: 0px 2px 2px 0px var(--color-3);
-}
+} */
 
-li{
+/* li{
   margin-left: 30px;
 }
 
 .link:hover{
  color: var(--color-4);
+} */
+
+
+/* usercard */
+.user-card {
+  width: 18rem;
+  border: none;
+  border-radius: 20px;
+  background: #ffffff;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.user-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.14);
+}
+
+/* Avatar */
+.user-avatar {
+  width: 75px;
+  height: 75px;
+  margin: 5px auto 18px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  color: white;
+
+  font-size: 30px;
+  font-weight: 700;
+
+  box-shadow: 0 8px 20px rgba(102, 126, 234, 0.3);
+}
+
+/* Name */
+.user-name {
+  margin-bottom: 5px;
+  font-size: 21px;
+  font-weight: 700;
+  color: #222;
+}
+
+/* Username */
+.user-username {
+  margin-bottom: 8px;
+  color: #777;
+  font-size: 14px;
+}
+
+/* Website */
+.user-website {
+  color: #667eea;
+  font-size: 14px;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.user-website:hover {
+  color: #764ba2;
+  text-decoration: underline;
+}
+
+/* Divider */
+.card-divider {
+  height: 1px;
+  background: #eeeeee;
+  margin: 20px 0;
+}
+
+/* Button */
+.details-btn {
+  width: 100%;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 15px;
+
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  font-size: 14px;
+  font-weight: 600;
+
+  transition: all 0.3s ease;
+}
+
+.details-btn:hover {
+  background: linear-gradient(135deg, #b9bed6, #a09ba4);
+  transform: translateY(-2px);
+}
+
+.details-btn span {
+  margin-left: 5px;
+}
+
+/* usersingle */
+.userSinglePage {
+  min-height: 100vh;
+  padding: 50px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  background: #f5f7fb;
+}
+
+.userSingleCard {
+  width: 100%;
+  max-width: 650px;
+  border: none;
+  border-radius: 24px;
+  padding: 35px;
+  background: #ffffff;
+  box-shadow: 0 12px 35px rgba(0, 0, 0, 0.08);
+}
+
+/* Profile Header */
+.profile-header {
+  text-align: center;
+  padding-bottom: 25px;
+}
+
+.profile-avatar {
+  width: 95px;
+  height: 95px;
+  margin: 0 auto 18px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 50%;
+
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  color: white;
+
+  font-size: 38px;
+  font-weight: 700;
+
+  box-shadow: 0 10px 25px rgba(102, 126, 234, 0.3);
+}
+
+.profile-header h2 {
+  margin-bottom: 5px;
+  font-size: 27px;
+  font-weight: 700;
+  color: #222;
+}
+
+.profile-header p {
+  margin: 0;
+  color: #777;
+  font-size: 15px;
+}
+
+/* Sections */
+.profile-section {
+  margin-top: 25px;
+  padding-top: 20px;
+  border-top: 1px solid #eeeeee;
+}
+
+.profile-section h5 {
+  margin-bottom: 18px;
+  font-size: 17px;
+  font-weight: 700;
+  color: #333;
+}
+
+/* Information rows */
+.info-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+
+  padding: 12px 0;
+  border-bottom: 1px solid #f1f1f1;
+
+  font-size: 14px;
+}
+
+.info-row:last-child {
+  border-bottom: none;
+}
+
+.info-row span {
+  color: #888;
+  font-weight: 500;
+}
+
+.info-row strong {
+  color: #333;
+  text-align: right;
+}
+
+.info-row a {
+  color: #667eea;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.info-row a:hover {
+  color: #764ba2;
+  text-decoration: underline;
+}
+
+/* Back button */
+.back-btn {
+  width: 100%;
+  margin-top: 30px;
+
+  padding: 11px;
+
+  border: none;
+  border-radius: 10px;
+
+  background: linear-gradient(135deg, #667eea, #764ba2);
+
+  font-size: 14px;
+  font-weight: 600;
+
+  transition: all 0.3s ease;
+}
+
+.back-btn:hover {
+  background: linear-gradient(135deg, #848bae, #9c95a3);
+  transform: translateY(-2px);
 }
